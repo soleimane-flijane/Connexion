@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Log In</title>
+ 
+<link rel="stylesheet" href="connexion.css" />
+
+</head>
+ 
+<body>
+ 
+<nav><a href="connexion.html">Connexion</a> | <a href="Inscription.html">Inscription</a></nav>
+
+
+<form id="Inscr">
+ 
+    <h2>Inscription</h2>
+ 
+    <input Nom="text" type="text" class="Inscr" placeholder="Nom" />
+    <input Prénom="text" type="text" class="Inscr" placeholder="Prénom" />
+    <input Adresse="text" class="Inscr" placeholder="Adresse Mail" />
+    <input Adresse="text" class="Inscr" placeholder="N°Tel" /><br>
+        
+  <br/>
+        <label for="bday">Date de naissance :</label>
+        <input type="date" id="bday" name="bday"><br/>
+        <br>
+            <label for="civilite">Civilité</label>
+            <p><input type="radio" name="civilite" value="m" checked>Homme
+            <input type="radio" name="civilite" value="f">Femme
+            <input type="radio" name="civilite" value="a">Autre</p>
+
+            <br/><select name="type" id="type">
+                <option>Diplôme</option>
+                <option value="Aucun">Aucun</option>
+                <option value="cap">CAP+</option>
+                <option value="bac">BAC+</option>
+                <option value="Master">Master</option>
+
+    <input Nom="text" type="text" class="Inscr" placeholder="Login" />
+    <input Adresse="text" class="Inscr" placeholder="Mot de passe" />
+    <input Adresse="text" class="Inscr" placeholder="Confirmation de mot de passe" /><br/>
+
+    <br/>
+    <label for="avatar">Avatar</label>
+            <input type="file" id="avatar" name="avatar" multiple><br>
+  
+            <a href="connexion.html"><input type="button" value="Inscription" class="button" /></a>
+            
+
+
+    </form>
+    </body>
+    </html>
